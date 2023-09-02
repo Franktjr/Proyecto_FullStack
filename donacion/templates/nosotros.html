@@ -1,0 +1,55 @@
+{% extends "fijos.html" %}
+{% load static %}
+{% block title %}Sobre Nosotros{% endblock %}
+{% block content %}
+
+<br><br>
+    <div class="jumbotron text-bg-secondary">
+      <div class="container">
+        <br>
+        <h1>CONÓCENOS</h1>
+        <br>
+        <p>Conoce a las personas detrás de este proyecto</p>
+        <br>
+      </div>
+    </div>
+<br><br>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'img/user.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Frank Toro</h5>
+                    <p class="card-text">Biografia Frank. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary btn-bd-primary">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'img/user.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Pedro Espinoza</h5>
+                    <p class="card-text">Biografia Pedro. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary btn-bd-primary">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{% static 'img/user.png' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Valeria Villarreal</h5>
+                    <p class="card-text">Biografia Valeria. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="http://www.linkedin.com/in/ValeriaNVillarrealV" class="btn btn-primary btn-bd-primary">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr>
+<br>
+{% endblock %}
